@@ -19,7 +19,7 @@ wstool info
 
 ## To run:
 1. Pull file and copy to, for example `~/new_test_ws/src/eva-maze.rosinstall`
-2. wstool init . <rosinstall filename>
+2. `wstool init . <rosinstall filename>`
 This will clone all the repositories referenced in the .rosinstall file to your workspace. Proceed to build your workspace normally from the `~/new_test_ws/` folder.
 
 
