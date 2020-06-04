@@ -7,9 +7,10 @@ A common place to put rosinstall files, which are a nice way to organize names o
 2. wstool scrape
 
 ## To check:
-
+```
 wstool status
 wstool info
+```
 
 ## To specify branch inside a .rosinstall file:
 
