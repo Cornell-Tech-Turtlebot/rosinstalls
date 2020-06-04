@@ -1,16 +1,25 @@
 # rosinstalls
 A common place to put rosinstall files, which are a nice way to organize names of related packages for installation together from source control.
 
-# Usage
-The easiest usage is to copy one of the rosinstall files to your new (empty) workspace so that you have something like
-```
-cd ~/new_test_ws/src/eva-maze.rosinstall
-```
-And then you can just run
-```
-wstool init . eva-maze.rosinstall
-```
-to clone all the repositories referenced in the .rosinstall file to your workspace. Proceed to build your workspace normally from the `~/new_test_ws/` folder.
+# Quick Start
+##To create:
+1. wstool init
+2. wstool scrape
+
+##To check:
+
+wstool status
+wstool info
+
+##To specify branch inside a .rosinstall file:
+
+version: <branch name>
+
+
+## To run:
+1. Pull file and copy to, for example `~/new_test_ws/src/eva-maze.rosinstall`
+2. wstool init . <rosinstall filename>
+This will clone all the repositories referenced in the .rosinstall file to your workspace. Proceed to build your workspace normally from the `~/new_test_ws/` folder.
 
 
 # Further documentation
