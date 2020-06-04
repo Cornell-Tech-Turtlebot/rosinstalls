@@ -2,16 +2,16 @@
 A common place to put rosinstall files, which are a nice way to organize names of related packages for installation together from source control.
 
 # Quick Start
-##To create:
+## To create:
 1. wstool init
 2. wstool scrape
 
-##To check:
+## To check:
 
 wstool status
 wstool info
 
-##To specify branch inside a .rosinstall file:
+## To specify branch inside a .rosinstall file:
 
 version: <branch name>
 
