@@ -14,7 +14,7 @@ wstool info
 
 ## To specify branch inside a .rosinstall file:
 
-version: <branch name>
+`version: <branch name>`
 
 
 ## To run:
