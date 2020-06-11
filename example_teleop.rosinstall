@@ -1,0 +1,12 @@
+- git:
+    local-name: example_teleoperation
+    uri: https://github.com/Cornell-Tech-Turtlebot/example_teleoperation
+- git:
+    local-name: turtlebot3-simulations
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3-simulations
+- git:
+    local-name: turtlebot3_description
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_description.git
+- git:
+    local-name: turtlebot3_msgs
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs
