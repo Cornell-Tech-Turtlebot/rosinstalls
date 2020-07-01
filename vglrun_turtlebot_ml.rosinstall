@@ -1,0 +1,15 @@
+- git:
+    local-name: gazebo_ros
+    uri: https://github.com/ros-simulation/gazebo_ros_pkgs.git
+- git:
+    local-name: turtlebot3_description
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_description
+- git:
+    local-name: turtlebot3_machine_learning
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_machine_learning
+- git:
+    local-name: turtlebot3_msgs
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+- git:
+    local-name: turtlebot3_simulations
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_simulations
