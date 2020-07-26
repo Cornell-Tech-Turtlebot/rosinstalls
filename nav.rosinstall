@@ -1,0 +1,24 @@
+- git:
+    local-name: maze_simulation
+    uri: https://github.com/Cornell-Tech-Turtlebot/maze_simulation.git
+- git:
+    local-name: turtlebot3_bringup
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_bringup.git
+- git:
+    local-name: turtlebot3_description
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_description.git
+- git:
+    local-name: turtlebot3_msgs
+    uri: https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+- git:
+    local-name: turtlebot3_navigation
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_navigation.git
+- git:
+    local-name: turtlebot3_simulations
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot3_simulations.git
+- git:
+    local-name: turtlebot_rrt
+    uri: https://github.com/Cornell-Tech-Turtlebot/turtlebot_rrt.git
+- git:
+    local-name: patrol
+    uri: https://github.com/Cornell-Tech-Turtlebot/patrol.git
